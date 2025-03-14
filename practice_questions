@@ -1,0 +1,753 @@
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 1
+
+**Question #1**
+
+*   **Question:** A company has built a solution by using generative AI. The solution uses large language models (LLMs) to translate training manuals from English into other languages. The company wants to evaluate the accuracy of the solution by examining the text generated for the manuals.Which model evaluation strategy meets these requirements?
+*   **Options:**
+    *   A. Bilingual Evaluation Understudy (BLEU)
+    *   B. Root mean squared error (RMSE)
+    *   C. Recall-Oriented Understudy for Gisting Evaluation (ROUGE)
+    *   D. F1 score
+
+**Question #2**
+
+*   **Question:** A company manually reviews all submitted resumes in PDF format. As the company grows, the company expects the volume of resumes to exceed the company's review capacity. The company needs an automated system to convert the PDF resumes into plain text format for additional processing.Which AWS service meets this requirement?
+*   **Options:**
+    *   A. Amazon Textract
+    *   B. Amazon Personalize
+    *   C. Amazon Lex
+    *   D. Amazon Transcribe
+
+**Question #3**
+
+*   **Question:** A company wants to use language models to create an application for inference on edge devices. The inference must have the lowest latency possible.Which solution will meet these requirements?
+*   **Options:**
+    *   A. Deploy optimized small language models (SLMs) on edge devices.
+    *   B. Deploy optimized large language models (LLMs) on edge devices.
+    *   C. Incorporate a centralized small language model (SLM) API for asynchronous communication with edge devices.
+    *   D. Incorporate a centralized large language model (LLM) API for asynchronous communication with edge devices.
+
+**Question #4**
+
+*   **Question:** A company has built an image classification model to predict plant diseases from photos of plant leaves. The company wants to evaluate how many images the model classified correctly.Which evaluation metric should the company use to measure the model's performance?
+*  **Options:**
+    *   A. R-squared score
+    *   B. Accuracy
+    *   C. Root mean squared error (RMSE)
+    *   D. Learning rate
+
+**Question #5**
+
+*    **Question:** A company is using an Amazon Bedrock base model to summarize documents for an internal use case. The company trained a custom model to improve the summarization quality.Which action must the company take to use the custom model through Amazon Bedrock?
+*   **Options:**
+    *   A. Purchase Provisioned Throughput for the custom model.
+    *   B. Deploy the custom model in an Amazon SageMaker endpoint for real-time inference.
+    *   C. Register the model with the Amazon SageMaker Model Registry.
+    *   D. Grant access to the custom model in Amazon Bedrock.
+
+**Question #6**
+
+*   **Question:** A company has thousands of customer support interactions per day and wants to analyze these interactions to identify frequently asked questions and develop insights.Which AWS service can the company use to meet this requirement?
+*   **Options:**
+    *   A. Amazon Lex
+    *   B. Amazon Comprehend
+    *   C. Amazon Transcribe
+    *   D. Amazon Translate
+
+**Question #7**
+
+*   **Question:** A company wants to deploy a conversational chatbot to answer customer questions. The chatbot is based on a fine-tuned Amazon SageMaker JumpStart model. The application must comply with multiple regulatory frameworks.Which capabilities can the company show compliance for? (Select TWO.)
+*   **Options:**
+    *   A. Auto scaling inference endpoints
+    *   B. Threat detection
+    *   C. Data protection
+    *   D. Cost optimization
+    *   E. Loosely coupled microservices
+
+**Question #8**
+
+*   **Question:** A company is building a large language model (LLM) question answering chatbot. The company wants to decrease the number of actions call center employees need to take to respond to customer questions.Which business objective should the company use to evaluate the effect of the LLM chatbot?
+*   **Options:**
+    *    A. Website engagement rate
+    *    B. Average call duration
+    *    C. Corporate social responsibility
+    *    D. Regulatory compliance
+
+**Question #9**
+
+*   **Question:** A company is implementing the Amazon Titan foundation model (FM) by using Amazon Bedrock. The company needs to supplement the model by using relevant data from the company's private data sources.Which solution will meet this requirement?
+*   **Options:**
+    *   A. Use a different FM
+    *   B. Choose a lower temperature value
+    *   C. Create an Amazon Bedrock knowledge base
+    *   D. Enable model invocation logging
+
+**Question #10**
+
+*   **Question:** A digital devices company wants to predict customer demand for memory hardware. The company does not have coding experience or knowledge of ML algorithms and needs to develop a data-driven predictive model. The company needs to perform analysis on internal data and external data.Which solution will meet these requirements?
+*  **Options:**
+    *   A. Store the data in Amazon S3. Create ML models and demand forecast predictions by using Amazon SageMaker built-in algorithms that use the data from Amazon S3.
+    *   B. Import the data into Amazon SageMaker Data Wrangler. Create ML models and demand forecast predictions by using SageMaker built-in algorithms.
+    *   C. Import the data into Amazon SageMaker Data Wrangler. Build ML models and demand forecast predictions by using an Amazon Personalize Trending-Now recipe.
+    *   D. Import the data into Amazon SageMaker Canvas. Build ML models and demand forecast predictions by selecting the values in the data from SageMaker Canvas.
+
+**Question #11**
+
+* **Question:** Which metric measures the runtime efficiency of operating AI models?
+* **Options:**
+    * A. Customer satisfaction score (CSAT)
+    * B. Training time for each epoch
+    * C. Average response time
+    * D. Number of training instances
+
+**Question #12**
+
+* **Question:** A company wants to create a chatbot by using a foundation model (FM) on Amazon Bedrock. The FM needs to access encrypted data that is stored in an Amazon S3 bucket.The data is encrypted with Amazon S3 managed keys (SSE-S3).The FM encounters a failure when attempting to access the S3 bucket data. Which solution will meet these requirements?
+* **Options:**
+    * A. Ensure that the role that Amazon Bedrock assumes has permission to decrypt data with the correct encryption key.
+    * B. Set the access permissions for the S3 buckets to allow public access to enable access over the internet.
+    * C. Use prompt engineering techniques to tell the model to look for information in Amazon S3.
+    * D. Ensure that the S3 data does not contain sensitive information.
+
+**Question #13**
+
+* **Question:** A company needs to choose a model from Amazon Bedrock to use internally. The company must identify a model that generates responses in a style that the company's employees prefer.What should the company do to meet these requirements?
+* **Options:**
+    * A. Evaluate the models by using built-in prompt datasets.
+    * B. Evaluate the models by using a human workforce and custom prompt datasets.
+    * C. Use public model leaderboards to identify the model.
+    * D. Use the model InvocationLatency runtime metrics in Amazon CloudWatch when trying models.
+
+**Question #14**
+
+*   **Question:** A company is training a foundation model (FM). The company wants to increase the accuracy of the model up to a specific acceptance level.Which solution will meet these requirements?
+*   **Options:**
+    *   A. Decrease the batch size.
+    *   B. Increase the epochs.
+    *   C. Decrease the epochs.
+    *   D. Increase the temperature parameter.
+
+**Question #15**
+
+* **Question:** An AI practitioner is using an Amazon Bedrock base model to summarize session chats from the customer service department. The AI practitioner wants to store invocation logs to monitor model input and output data.Which strategy should the AI practitioner use?
+* **Options:**
+    * A. Configure AWS CloudTrail as the logs destination for the model.
+    * B. Enable invocation logging in Amazon Bedrock.
+    * C. Configure AWS Audit Manager as the logs destination for the model.
+    * D. Configure model invocation logging in Amazon EventBridge.
+
+**Question #16**
+
+*   **Question:** A company wants to use a generative AI model to create personalized marketing emails.  Which of the following is the MOST important consideration for responsible AI in this scenario?
+*   **Options:**
+    *   A. Ensuring the emails are grammatically correct.
+    *   B.  Avoiding bias and ensuring fairness in the personalization.
+    *   C.  Maximizing the open rate of the emails.
+    *   D.  Minimizing the cost of sending the emails.
+
+
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 2
+
+**Question #17**
+
+*   **Question:** An AI practitioner wants to use a foundation model (FM) to design a search application. The search application must handle queries that have text and images.Which type of FM should the AI practitioner use to power the search application?
+*   **Options:**
+    *   A. Multi-modal embedding model
+    *   B. Text embedding model
+    *   C. Multi-modal generation model
+    *   D. Image generation model
+
+**Question #18**
+
+*   **Question:** A student at a university is copying content from generative AI to write essays.Which challenge of responsible generative AI does this scenario represent?
+*   **Options:**
+    *   A. Toxicity
+    *   B. Hallucinations
+    *   C. Plagiarism
+    *   D. Privacy
+
+**Question #19**
+
+*   **Question:** A company wants to assess the costs that are associated with using a large language model (LLM) to generate inferences. The company wants to use Amazon Bedrock to build generative AI applications. Which factor will drive the inference costs?
+*   **Options:**
+    *   A. Number of tokens consumed
+    *   B. Temperature value
+    *   C. Amount of data used to train the LLM
+    *   D. Total training time
+
+**Question #20**
+
+*   **Question:** A company has developed an ML model for image classification. The company wants to deploy the model to production so that a web application can use the model.The company needs to implement a solution to host the model and serve predictions without managing any of the underlying infrastructure.Which solution will meet these requirements?
+*   **Options:**
+    *   A. Use Amazon SageMaker Serverless Inference to deploy the model.
+    *   B. Use Amazon CloudFront to deploy the model.
+    *   C. Use Amazon API Gateway to host the model and serve predictions.
+    *   D. Use AWS Batch to host the model and serve predictions.
+
+**Question #21**
+
+* **Question:** A research company implemented a chatbot by using a foundation model (FM) from Amazon Bedrock. The chatbot searches for answers to questions from a large database of research papers. After multiple prompt engineering attempts, the company notices that the FM is performing poorly because of the complex scientific terms in the research papers.How can the company improve the performance of the chatbot?
+* **Options:**
+    * A. Use few-shot prompting to define how the FM can answer the questions.
+    * B. Use domain adaptation fine-tuning to adapt the FM to complex scientific terms.
+    * C. Change the FM inference parameters.
+    * D. Clean the research paper data to remove complex scientific terms.
+
+**Question #22**
+
+* **Question:** A company has installed a security camera. The company uses an ML model to evaluate the security camera footage for potential thefts. The company has discovered that the model disproportionately flags people who are members of a specific ethnic group.Which type of bias is affecting the model output?
+* **Options:**
+    * A. Measurement bias
+    * B. Sampling bias
+    * C. Observer bias
+    * D. Confirmation bias
+
+**Question #23**
+
+* **Question:** A company has built a chatbot that can respond to natural language questions with images. The company wants to ensure that the chatbot does not return inappropriate or unwanted images.Which solution will meet these requirements?
+*   **Options:**
+    *   A. Implement moderation APIs.
+    *   B. Retrain the model with a general public dataset.
+    *   C. Perform model validation.
+    *   D. Automate user feedback integration.
+
+**Question #24**
+
+*   **Question:** A company is building an ML model to analyze archived data. The company must perform inference on large datasets that are multiple GBs in size. The company does not need to access the model predictions immediately.Which Amazon SageMaker inference option will meet these requirements?
+*   **Options:**
+    *   A. Batch transform
+    *   B. Real-time inference
+    *   C. Serverless inference
+    *   D. Asynchronous inference
+
+**Question #25**
+
+*   **Question:** Which AWS service or feature can help an AI development team quickly deploy and consume a foundation model (FM) within the team's VPC?
+* **Options:**
+    * A. Amazon Personalize
+    * B. Amazon SageMaker JumpStart
+    * C. PartyRock, an Amazon Bedrock Playground
+    * D. Amazon SageMaker endpoints
+
+**Question #26**
+
+*   **Question:** A loan company is building a generative Al-based solution to offer new applicants discounts based on specific business criteria. The company wants to build and use an AI model responsibly to minimize bias that could negatively affect some customers.Which actions should the company take to meet these requirements? (Select TWO.)
+*   **Options:**
+    *   A. Detect imbalances or disparities in the data.
+    *   B. Ensure that the model runs frequently.
+    *   C. Evaluate the model's behavior so that the company can provide transparency to stakeholders.
+    *   D. Use the Recall-Oriented Understudy for Gisting Evaluation (ROUGE) technique to ensure that the model is 100% accurate.
+    *   E. Ensure that the model's inference time is within the accepted limits.
+
+**Question #27**
+
+* **Question:** A company wants to build an ML model by using Amazon SageMaker. The company needs to share and manage variables for model development across multiple teams.Which SageMaker feature meets these requirements?
+* **Options:**
+    * A. Amazon SageMaker Feature Store
+    * B. Amazon SageMaker Data Wrangler
+    * C. Amazon SageMaker Clarify
+    * D. Amazon SageMaker Model Cards
+
+**Question #28**
+
+*   **Question:** A company is building an application that needs to generate synthetic data that is based on existing data.Which type of model can the company use to meet this requirement?
+*   **Options:**
+        * A. Generative adversarial network (GAN)
+        * B. XGBoost
+        * C. Residual neural network
+        * D. WaveNet
+
+**Question #29**
+
+*   **Question:** An e-commerce company wants to build a solution to determine customer sentiments based on written customer reviews of products.Which AWS services meet these requirements? (Select TWO.)
+*   **Options:**
+    *   A. Amazon Lex
+    *   B. Amazon Comprehend
+    *   C. Amazon Polly
+    *   D. Amazon Bedrock
+    *   E. Amazon Rekognition
+
+**Question #30**
+*   **Question:** A company wants to classify human genes into 20 categories based on gene characteristics. The company needs an ML algorithm to document how the inner mechanism of the model affects the output.Which ML algorithm meets these requirements?
+*  **Options:**
+    *   A. Decision trees
+    *   B. Linear regression
+    *   C. Logistic regression
+    *   D. Neural networks
+
+**Question #31**
+
+* **Question:** A company is using few-shot prompting on a base model that is hosted on Amazon Bedrock. The model currently uses 10 examples in the prompt. The model is invoked once daily and is performing well. The company wants to lower the monthly cost.Which solution will meet these requirements?
+* **Options:**
+    * A. Customize the model by using fine-tuning.
+    * B. Decrease the number of tokens in the prompt.
+    * C. Increase the number of tokens in the prompt.
+    * D. Use Provisioned Throughput.
+
+**Question #32**
+
+*   **Question:** A company wants to display the total sales for its top-selling products across various retail locations in the past 12 months.Which AWS solution should the company use to automate the generation of graphs?
+*   **Options:**
+    *   A. Amazon Q in Amazon EC2
+    *   B. Amazon Q Developer
+    *   C. Amazon Q in Amazon QuickSight
+    *   D. Amazon Q in AWS Chatbot
+
+**Question #33**
+
+*   **Question:** What are tokens in the context of generative AI models?
+*   **Options:**
+     *   A. Tokens are the basic units of input and output that a generative AI model operates on, representing words, subwords, or other linguistic units.
+     *   B. Tokens are the mathematical representations of words or concepts used in generative AI models.
+     *   C. Tokens are the pre-trained weights of a generative AI model that are fine-tuned for specific tasks.
+     *   D. Tokens are the specific prompts or instructions given to a generative AI model to generate output.
+
+**Question #34**
+*   **Question:** A company wants to use a large language model (LLM) on Amazon Bedrock for sentiment analysis. The company wants to know how much information can fit into one prompt.Which consideration will inform the company's decision?
+*  **Options:**
+    *   A. Temperature
+    *   B. Context window
+    *   C. Batch size
+    *   D. Model
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 3
+
+**Question #35**
+
+*   **Question:** A company is implementing an ML model to analyze customer interactions and predict customer satisfaction. The company is concerned about potential biases in the model's predictions.Which AWS service can the company use to detect and mitigate bias in the ML model?
+*   **Options:**
+    *   A. Amazon SageMaker Clarify
+    *   B. Amazon SageMaker Debugger
+    *   C. Amazon SageMaker Model Monitor
+    *   D. Amazon SageMaker Autopilot
+
+**Question #36**
+
+*   **Question:** A company wants to use a large language model (LLM) to build a question answering application. The application must use the company's internal documents as a reference to answer the questions.Which technique should the company use to meet this requirement?
+*   **Options:**
+    *   A. Few-shot prompting
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+**Question #37**
+
+* **Question:** A company is building an application that can answer questions about complex documents. The company wants to use Amazon Bedrock to implement the application. The company needs to use a model that can process long documents.Which model meets this requirement?
+* **Options:**
+    * A. Anthropic Claude 2.1
+    * B. Cohere Command
+    * C. Stability AI Stable Diffusion XL
+    * D. Meta Llama 2
+
+**Question #38**
+
+* **Question:** A company is building an ML application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to customize the model to improve the model's accuracy.Which model meets these requirements?
+* **Options:**
+    * A. Anthropic Claude Instant
+    * B. Cohere Command
+    * C. AI21 Labs Jurassic-2
+    * D. Meta Llama 2
+
+**Question #39**
+
+* **Question:** A company wants to use a foundation model (FM) to build a chatbot. The chatbot must be able to search for answers to questions by using the company's internal documents. The chatbot must also be able to summarize the answers.Which AWS services can the company use to meet these requirements? (Select TWO.)
+* **Options:**
+    * A. Amazon Kendra
+    * B. Amazon Lex
+    * C. Amazon Bedrock
+    * D. Amazon Transcribe
+    * E. Amazon Polly
+
+**Question #40**
+
+*   **Question:** A company is building an ML model to predict customer churn. The company has a labeled dataset of historical customer data, including features such as demographics, purchase history, and customer service interactions. The company wants to train a model that can predict the probability of a customer churning.Which type of ML problem is this?
+*   **Options:**
+    *   A. Regression
+    *   B. Classification
+    *   C. Clustering
+    *   D. Reinforcement learning
+
+**Question #41**
+
+*   **Question:** A company is training an ML model to predict the price of houses. The company has a dataset of historical house prices, including features such as the size of the house, the number of bedrooms, and the location of the house. The company wants to train a model that can predict the price of a house given its features.Which type of ML problem is this?
+*   **Options:**
+    *   A. Regression
+    *   B. Classification
+    *   C. Clustering
+    *   D. Reinforcement learning
+
+**Question #42**
+
+*   **Question:** A company is using Amazon SageMaker to train an ML model. The company wants to monitor the training process and identify any potential issues.Which SageMaker feature can the company use to meet this requirement?
+*   **Options:**
+    *   A. SageMaker Debugger
+    *   B. SageMaker Model Monitor
+    *   C. SageMaker Clarify
+    *   D. SageMaker Autopilot
+
+**Question #43**
+
+* **Question:** A company is building an application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to use a model that can generate text in multiple languages.Which model meets these requirements?
+* **Options:**
+    * A. Anthropic Claude Instant
+    * B. Cohere Command
+    * C. AI21 Labs Jurassic-2
+    * D. Meta Llama 2
+
+**Question #44**
+
+*   **Question:** A company is building an application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to use a model that can generate text in a specific style.Which technique can the company use to meet this requirement?
+*   **Options:**
+    *   A. Few-shot prompting
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+**Question #45**
+*   **Question:** A company wants to use a large language model (LLM) to build a question answering application. The application must be able to answer questions about a specific topic. The company has a large dataset of documents related to the topic.Which technique should the company use to meet this requirement?
+*   **Options:**
+    *   A. Few-shot prompting
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+**Question #46**
+
+*   **Question:** A company is building an ML model to predict customer churn. The company has a labeled dataset of historical customer data. The company wants to train a model that can predict the probability of a customer churning. The company also wants to understand the factors that contribute to customer churn.Which type of ML model should the company use?
+*   **Options:**
+    *   A. Decision tree
+    *   B. Random forest
+    *   C. Support vector machine (SVM)
+    *   D. Neural network
+
+**Question #47**
+
+*   **Question:** A company is building an ML model to predict the price of houses. The company has a dataset of historical house prices. The company wants to train a model that can predict the price of a house given its features. The company also wants to understand the factors that contribute to the price of a house.Which type of ML model should the company use?
+*   **Options:**
+    *   A. Linear regression
+    *   B. Logistic regression
+    *   C. Support vector machine (SVM)
+    *   D. Neural network
+
+**Question #48**
+
+*   **Question:** A company is using Amazon SageMaker to train an ML model. The company wants to monitor the training process and identify any potential issues. The company also wants to be able to debug the training process if necessary.Which SageMaker feature can the company use to meet these requirements?
+*   **Options:**
+    *   A. SageMaker Debugger
+    *   B. SageMaker Model Monitor
+    *   C. SageMaker Clarify
+    *   D. SageMaker Autopilot
+
+**Question #49**
+
+* **Question:** A company is building an application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to use a model that can generate text that is creative and engaging.Which model meets these requirements?
+* **Options:**
+    * A. Anthropic Claude Instant
+    * B. Cohere Command
+    * C. AI21 Labs Jurassic-2
+    * D. Meta Llama 2
+
+**Question #50**
+
+*   **Question:** A company is building an application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to use a model that can generate text that is factual and accurate.Which technique can the company use to meet this requirement?
+*   **Options:**
+    *   A. Few-shot prompting
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+**Question #51**
+
+*   **Question:** A company wants to use a large language model (LLM) to build a question answering application. The application must be able to answer questions about a specific topic. The company does not have a large dataset of documents related to the topic.Which technique should the company use to meet this requirement?
+*   **Options:**
+    *   A. Few-shot prompting
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 4
+
+**Question #52**
+
+*   **Question:** A company is building an ML model to predict customer churn. The company has a labeled dataset of historical customer data. The company wants to train a model that can predict the probability of a customer churning. The company also wants to be able to explain the model's predictions.Which type of ML model should the company use?
+*   **Options:**
+    *   A. Decision tree
+    *   B. Random forest
+    *   C. Support vector machine (SVM)
+    *   D. Neural network
+
+**Question #53**
+
+*   **Question:** A company is building an ML model to predict the price of houses. The company has a dataset of historical house prices. The company wants to train a model that can predict the price of a house given its features. The company also wants to be able to explain the model's predictions.Which type of ML model should the company use?
+*   **Options:**
+    *   A. Linear regression
+    *   B. Logistic regression
+    *   C. Support vector machine (SVM)
+    *   D. Neural network
+
+**Question #54**
+
+*   **Question:** A company is using Amazon SageMaker to train an ML model. The company wants to monitor the training process and identify any potential issues. The company also wants to be able to visualize the training process.Which SageMaker feature can the company use to meet these requirements?
+*   **Options:**
+    *   A. SageMaker Debugger
+    *   B. SageMaker Model Monitor
+    *   C. SageMaker Clarify
+    *   D. SageMaker Experiments
+
+**Question #55**
+
+* **Question:** A company is building an application that will use a large language model (LLM) to generate text. The company wants to use a model that is available in Amazon Bedrock. The company needs to use a model that can generate text that is consistent and coherent.Which technique can the company use to meet this requirement?
+* **Options:**
+    * A. Few-shot prompting
+    * B. Retrieval augmented generation (RAG)
+    * C. Reinforcement learning from human feedback (RLHF)
+    * D. Beam search
+
+**Question #56**
+
+*   **Question:** A company wants to use a large language model (LLM) to build a question answering application. The application must be able to answer questions about a specific topic. The company has a small dataset of documents related to the topic.Which technique should the company use to meet this requirement?
+*   **Options:**
+    *   A. Fine-tuning
+    *   B. Retrieval augmented generation (RAG)
+    *   C. Reinforcement learning from human feedback (RLHF)
+    *   D. Zero-shot prompting
+
+**Question #57**
+
+*   **Question:** A company is building an ML model to detect fraudulent transactions. The company has a labeled dataset of historical transactions. The company wants to train a model that can accurately identify fraudulent transactions. The company also wants to minimize the number of false positives.Which evaluation metric should the company use?
+*   **Options:**
+    *   A. Accuracy
+    *   B. Precision
+    *   C. Recall
+    *   D. F1-score
+
+**Question #58**
+
+* **Question:** A company wants to build a system that can automatically transcribe audio recordings of customer service calls into text. Which AWS service should the company use?
+* **Options:**
+    * A. Amazon Transcribe
+    * B. Amazon Comprehend
+    * C. Amazon Lex
+    * D. Amazon Polly
+
+**Question #59**
+* **Question:**  A company wants to build a chatbot that can understand and respond to customer inquiries in natural language. Which AWS service should the company use?
+* **Options:**
+    * A. Amazon Lex
+    * B. Amazon Comprehend
+    * C. Amazon Transcribe
+    * D. Amazon Polly
+
+**Question #60**
+
+* **Question:** A company wants to build a system that can automatically detect objects in images. Which AWS service should the company use?
+* **Options:**
+    * A. Amazon Rekognition
+    * B. Amazon Comprehend
+    * C. Amazon Lex
+    * D. Amazon Polly
+
+**Question #61**
+
+* **Question:** A company wants to build a system that can automatically translate text from one language to another. Which AWS service should the company use?
+* **Options:**
+    * A. Amazon Translate
+    * B. Amazon Comprehend
+    * C. Amazon Lex
+    * D. Amazon Polly
+
+**Question #62**
+
+*   **Question:** A company wants to build a system that can automatically generate realistic speech from text. Which AWS service should the company use?
+*   **Options:**
+    *   A. Amazon Polly
+    *   B. Amazon Comprehend
+    *   C. Amazon Lex
+    *   D. Amazon Transcribe
+
+**Question #63**
+
+*   **Question:** A company wants to build a system that can automatically extract key phrases and entities from text. Which AWS service should the company use?
+*   **Options:**
+    *   A. Amazon Comprehend
+    *   B. Amazon Translate
+    *   C. Amazon Lex
+    *   D. Amazon Polly
+
+**Question #64**
+
+* **Question:** A company wants to build a system that can automatically personalize recommendations for users. Which AWS service should the company use?
+* **Options:**
+    * A. Amazon Personalize
+    * B. Amazon Comprehend
+    * C. Amazon Lex
+    * D. Amazon Polly
+
+**Question #65**
+
+*   **Question:** A company wants to build a system that can automatically forecast future values based on historical data. Which AWS service should the company use?
+*   **Options:**
+        *   A. Amazon Forecast
+        *   B. Amazon Comprehend
+        *   C. Amazon Lex
+        *   D. Amazon Polly
+
+**Question #66**
+* **Question:** A company is developing a new AI-powered application. They want to ensure that the application is developed and used responsibly. Which of the following principles should they consider? (Select TWO)
+* **Options:**
+    * A. Fairness
+    * B. Profitability
+    * C. Explainability
+    * D. Speed
+    * E. Complexity
+
+**Question #67**
+* **Question:** What is a potential risk of using generative AI models?
+* **Options:**
+    * A. Generation of biased or harmful content
+    * B. Increased computational cost
+    * C. Reduced accuracy compared to traditional ML models
+    * D. Inability to handle complex tasks
+
+**Question #68**
+* **Question:** Which of the following is a benefit of using generative AI models?
+* **Options:**
+    * A. Ability to create new and original content
+    * B. Guaranteed accuracy and reliability
+    * C. Reduced need for human oversight
+    * D. Elimination of bias in data
+
+**Question #69**
+*   **Question:** A company is using a generative AI model to create marketing materials. They want to ensure that the generated content is aligned with their brand values. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Fine-tuning the model on a dataset of brand-approved content
+    *   B. Using a larger and more general-purpose model
+    *   C. Increasing the temperature parameter of the model
+    *   D. Decreasing the number of training epochs
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 5
+
+**Question #70**
+
+*   **Question:** A company is using a generative AI model to generate product descriptions. They want to ensure that the generated descriptions are diverse and creative. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Increasing the temperature parameter of the model
+    *   B. Decreasing the temperature parameter of the model
+    *   C. Fine-tuning the model on a dataset of product descriptions
+    *   D. Using a smaller and more specialized model
+
+**Question #71**
+
+*   **Question:** A company is using a generative AI model to generate code. They want to ensure that the generated code is syntactically correct and functional. Which of the following techniques can they use?
+*   **Options:**
+        * A. Using a model that is specifically trained for code generation
+        * B. Increasing the temperature parameter of the model
+        * C. Decreasing the number of training epochs
+        * D. Using a smaller and more general-purpose model
+
+# AWS Certified AI Practitioner AIF-C01 Questions - Part 5
+
+**Question #72**
+
+*   **Question:** A company is using a generative AI model to generate images. They want to ensure that the generated images are realistic and high-quality. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Using a model that is specifically trained for image generation
+    *   B. Increasing the temperature parameter of the model
+    *   C. Decreasing the number of training epochs
+    *   D. Using a smaller and more general-purpose model
+
+**Question #73**
+
+*   **Question:** A company is using a generative AI model to generate text. They want to ensure that the generated text is coherent and flows naturally. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Using a model with a larger context window
+    *   B. Increasing the temperature parameter of the model
+    *   C. Decreasing the number of training epochs
+    *   D. Using a smaller and more general-purpose model
+
+**Question #74**
+
+*   **Question:** A company is using a generative AI model to generate music. They want to ensure that the generated music is creative and original. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Using a model that is specifically trained for music generation
+    *   B. Increasing the temperature parameter of the model
+    *   C. Decreasing the number of training epochs
+    *   D. Using a smaller and more general-purpose model
+
+**Question #75**
+
+*   **Question:** A company wants to use a generative AI model to create personalized content for their customers. Which of the following data points would be most useful for this purpose?
+*   **Options:**
+    *   A. Customer demographics and purchase history
+    *   B. General market trends and competitor analysis
+    *   C. Internal company data and financial reports
+    *   D. Publicly available datasets and news articles
+
+**Question #76**
+
+*   **Question:** A company is concerned about the potential for their generative AI model to generate biased or harmful content. Which of the following strategies can they use to mitigate this risk?
+*   **Options:**
+    *   A. Carefully curate the training data to remove bias
+    *   B. Use a larger and more general-purpose model
+    *   C. Increase the temperature parameter of the model
+    *   D. Decrease the number of training epochs
+
+**Question #77**
+
+*   **Question:** A company is using a generative AI model to generate text. They want to ensure that the generated text is factually accurate. Which of the following techniques can they use?
+*   **Options:**
+    *   A. Retrieval augmented generation (RAG)
+    *   B. Increasing the temperature parameter of the model
+    *   C. Decreasing the number of training epochs
+    *   D. Using a smaller and more general-purpose model
+
+**Question #78**
+
+* **Question:** A company wants to use generative AI to improve their customer service. Which of the following applications would be most suitable?
+* **Options:**
+    * A. Building a chatbot to answer frequently asked questions
+    * B. Generating personalized marketing emails
+    * C. Creating new product designs
+    * D. Automating internal company processes
+
+**Question #79**
+
+*   **Question:** A company wants to use generative AI to automate their content creation process. Which of the following tasks would be most suitable?
+*   **Options:**
+    *   A. Generating product descriptions and social media posts
+    *   B. Conducting market research and competitor analysis
+    *   C. Managing customer relationships and providing support
+    *   D. Developing new business strategies and plans
+
+**Question #80**
+* **Question:**  A company wants to use a foundation model (FM) to build a chatbot.  They have limited internal data for training. Which approach is MOST appropriate?
+* **Options:**
+    * A.  Use few-shot prompting with the FM.
+    * B.  Train a new model from scratch.
+    * C.  Use a reinforcement learning algorithm.
+    * D. Use unsupervised learning techniques.
+
+**Question #81**
+* **Question:** A company is building a model to predict customer churn.  They have a highly imbalanced dataset, where only a small percentage of customers churn. Which metric is MOST appropriate for evaluating the model's performance?
+* **Options:**
+    * A. Accuracy
+    * B. F1-score
+    * C. Root Mean Squared Error (RMSE)
+    * D. R-squared
+
+**Question #82**
+* **Question:**  A company wants to use AI to detect fraudulent transactions.  They need a model that is highly interpretable, so they can understand *why* a transaction is flagged as fraudulent. Which model type is MOST appropriate?
+* **Options:**
+    * A.  Deep Neural Network
+    * B.  Decision Tree
+    * C.  Support Vector Machine
+    * D.  k-Nearest Neighbors
+
+**Question #83**
+* **Question:** A company is using Amazon SageMaker to train a large language model. They want to monitor the training process and receive alerts if the model starts to overfit. Which SageMaker feature should they use?
+* **Options:**
+    * A. SageMaker Debugger
+    * B. SageMaker Model Monitor
+    * C. SageMaker Clarify
+    * D. SageMaker Autopilot
+
+
+
